@@ -31,10 +31,11 @@ def index():
     return render_template_string("""
         <html>
             <head>
-                <title>Word Practice</title>
+                <title>German Practice</title>
             </head>
             <body>
-                <h1>Random Word Practice</h1>
+                <h1>German Word Practice</h1>
+                <p style="font-size:24px;">English Word</p>
                 <p style="font-size:24px;"><strong>{{ word }}</strong></p>
 
                 {% if show_translation %}
